@@ -96,7 +96,9 @@
     [/^\/exam\/run$/, examRun, 'exam', true],
     [/^\/exam\/result\/(\d+)$/, examResult, 'exam'],
     [/^\/progress$/, progressView, 'progress'],
-    [/^\/info$/, infoView, 'home']
+    [/^\/info$/, infoView, 'home'],
+    [/^\/share$/, shareView, 'home'],
+    [/^\/install$/, installView, 'home']
   ];
   function router() {
     if (cleanup) { cleanup(); cleanup = null; }
@@ -107,6 +109,7 @@
       if (m) {
         document.querySelectorAll('#tabbar a').forEach(a => a.classList.toggle('active', a.dataset.tab === tab));
         document.body.classList.toggle('no-tabs', !!hideTabs);
+        document.body.dataset.route = path.split('/')[1] || 'home';
         view.style.animation = 'none'; void view.offsetWidth; view.style.animation = '';
         const out = fn(...m.slice(1));
         if (typeof out === 'string') view.innerHTML = out;
@@ -128,7 +131,7 @@
     const mc = mistakes().length;
     return `
       <div class="hero">
-        <div class="hi">${greet} 👋</div>
+        <div class="hero-top"><div class="hi">${greet} 👋</div><a class="hero-share" href="#/share" aria-label="Share the app">${icon('share')}</a></div>
         <h1>Vivre ensemble<br>exam prep</h1>
         <div class="hero-body">
           ${ring(r, { label: r + '%', sub: 'READY' })}
@@ -161,6 +164,11 @@
         </div>
         <p class="small muted mb0" style="margin-top:12px">Multiple-choice on computer: 10 questions on fundamental rights, 20 on institutions and 10 on history & European integration.</p>
       </div>
+      <a class="share-card" href="#/share">
+        <div class="ic">${icon('share')}</div>
+        <div class="txt"><b>Share with a friend</b><span>Send the link or show the QR code. It works on any iPhone, for free.</span></div>
+        ${icon('chev', 'chev')}
+      </a>
       <a class="list row" href="#/info" style="display:flex"><div class="ic" style="background:#8e8e93">${icon('info')}</div><div class="txt"><div class="t">About the exam & sources</div><div class="s">Registration, format, official links</div></div>${icon('chev', 'chev')}</a>
       <p class="disclaimer">Unofficial study aid built from official public sources (Ministry of Education, Guichet.lu, gouvernement.lu, the Constitution). Always check the official portal for current rules.</p>`;
   }
@@ -672,6 +680,74 @@
       <p class="disclaimer">Made for learners · Works offline once loaded · Add to Home Screen from Safari's share menu</p>`;
   }
 
+  /* ---------- Sharing ---------- */
+  const APP_URL = 'https://tcw4wn9r95-jpg.github.io/ensemble/';
+  const SHARE_TEXT = 'I\'m preparing for the Luxembourg "Vivre ensemble" citizenship exam with this free app: lessons, flashcards, practice and a full mock exam. Open it in Safari and add it to your Home Screen:';
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const isStandalone = () => window.navigator.standalone === true || matchMedia('(display-mode: standalone)').matches;
+
+  async function shareApp() {
+    if (navigator.share) {
+      try { await navigator.share({ title: 'Vivre Ensemble Prep', text: SHARE_TEXT, url: APP_URL }); } catch { /* cancelled */ }
+    } else copyLink();
+  }
+  async function copyLink() {
+    try { await navigator.clipboard.writeText(APP_URL); toast('Link copied ✓'); }
+    catch { prompt('Copy this link:', APP_URL); }
+  }
+
+  function installSteps() {
+    return `<ol class="install-steps">
+      <li><span class="n">1</span><div>Open the link in <b>Safari</b> (not Chrome or an in-app browser).</div></li>
+      <li><span class="n">2</span><div>Tap the <b>Share</b> button <span class="kbd">${icon('share')}</span> at the bottom of the screen (or at the top on iPad).</div></li>
+      <li><span class="n">3</span><div>Scroll down and tap <b>Add to Home Screen</b> <span class="kbd">${icon('plus')}</span>.</div></li>
+      <li><span class="n">4</span><div>Tap <b>Add</b>. The app appears on your Home Screen, opens full-screen and <b>works offline</b>.</div></li>
+    </ol>`;
+  }
+
+  function shareView() {
+    view.innerHTML = `${navbar('Share', '#/')}
+      <div class="share-hero">
+        <div class="share-badge">${icon('share')}</div>
+        <h1>Share the app</h1>
+        <p>Free, no account, nothing to install from the App Store. Each person's progress is saved privately on their own phone.</p>
+      </div>
+      <div class="card center">
+        <img class="qr" src="icons/qr.svg" alt="QR code linking to the app" width="220" height="220">
+        <p class="small muted" style="margin:10px 0 0">Scan with the iPhone Camera app</p>
+        <div class="link-box"><span>${esc(APP_URL.replace('https://', ''))}</span><button class="nb-btn" id="copy">Copy</button></div>
+      </div>
+      <button class="btn red" id="share">${icon('share')} Share link…</button>
+      <p class="center small muted mt">Opens the iPhone share sheet: Messages, WhatsApp, Mail, AirDrop…</p>
+      <div class="section-h"><h2>How your friend installs it</h2></div>
+      <div class="card">${installSteps()}</div>
+      <div class="card small muted"><b style="color:var(--label)">Good to know:</b> it also works on Android (Chrome → menu → <i>Add to Home screen</i>) and on any computer browser.</div>`;
+    document.getElementById('share').onclick = shareApp;
+    document.getElementById('copy').onclick = copyLink;
+  }
+
+  function installView() {
+    view.innerHTML = `${navbar('Install on iPhone', '#/')}
+      <div class="large-title" style="padding-top:4px"><h1>Add to Home Screen</h1><p>Use it like a real app: full-screen, offline, one tap away.</p></div>
+      <div class="card">${installSteps()}</div>
+      <a class="btn ghost" href="#/">Back to the app</a>`;
+  }
+
+  function maybeInstallBanner() {
+    let dismissed = false;
+    try { dismissed = localStorage.getItem('ve-install-dismissed') === '1'; } catch { }
+    if (!isIOS || isStandalone() || dismissed) return;
+    const b = document.createElement('div');
+    b.className = 'install-banner';
+    b.innerHTML = `<img src="icons/apple-touch-icon.png" alt=""><div class="txt"><b>Install this app</b><span>Tap ${icon('share')} then <b>Add to Home Screen</b></span></div>
+      <a href="#/install" class="ib-how">How</a><button class="ib-x" aria-label="Dismiss">${icon('x')}</button>`;
+    document.body.appendChild(b);
+    document.body.classList.add('has-banner');
+    const close = () => { b.remove(); document.body.classList.remove('has-banner'); try { localStorage.setItem('ve-install-dismissed', '1'); } catch { } };
+    b.querySelector('.ib-x').onclick = close;
+    b.querySelector('.ib-how').onclick = close;
+  }
+
   /* ---------- Sheet ---------- */
   function openSheet(html, actions = {}) {
     sheetRoot.innerHTML = `<div class="sheet-backdrop" data-act="close"></div><div class="sheet" role="dialog" aria-modal="true"><div class="grab"></div>${html}</div>`;
@@ -685,6 +761,7 @@
 
   /* ---------- Boot ---------- */
   router();
+  setTimeout(maybeInstallBanner, 1500);
   if ('serviceWorker' in navigator && location.protocol === 'https:') {
     navigator.serviceWorker.register('sw.js').catch(() => { });
   }
