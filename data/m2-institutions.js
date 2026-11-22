@@ -35,6 +35,15 @@ VE.addModule({
 </table>
 <p>As in every parliamentary democracy, the separation of powers is <b>flexible</b>: the legislative and executive powers are closely linked. The government comes from the parliamentary majority and answers to it. Only the <b>judicial power is completely independent</b>.</p>
 
+<h3>The State in the Constitution (Chapter I)</h3>
+<ul>
+  <li><b>Art. 1:</b> Luxembourg is a <b>democratic, free, independent and indivisible State</b>.</li>
+  <li><b>Art. 4:</b> the <b>language</b> of Luxembourg is <b>Luxembourgish</b>, and the law regulates the use of Luxembourgish, French and German. The national emblem is the <b>red, white and blue tricolour</b>, and the national anthem is <b>"Ons Heemecht"</b>.</li>
+  <li><b>Art. 5:</b> Luxembourg <b>takes part in European integration</b>. State powers can be transferred to the EU by a law passed with a qualified majority.</li>
+  <li><b>Art. 8:</b> <b>Luxembourg City</b> is the capital and the <b>seat of the constitutional institutions</b>.</li>
+  <li>Any change to the territory requires a law passed by a <b>qualified (2/3) majority</b>.</li>
+</ul>
+
 <h3>Territorial organisation</h3>
 <ul>
   <li>The country has no provinces or regions. The <b>only decentralised political level is the commune</b> (municipality).</li>
@@ -69,20 +78,31 @@ VE.addModule({
 
 <h3>His powers (always exercised with the Government)</h3>
 <ul>
-  <li><b>Promulgates the laws</b>: he certifies the text and orders its publication. Since the <b>2009 revision</b>, he no longer has to <i>approve</i> (sanction) laws. The change followed Grand Duke Henri's objection of conscience to the euthanasia law.</li>
+  <li><b>Promulgates the laws</b> within <b>3 months</b> of their adoption: he certifies the text and orders its publication. Since the <b>2009 revision</b>, he no longer has to <i>approve</i> (sanction) laws. The change followed Grand Duke Henri's objection of conscience to the euthanasia law.</li>
   <li>Adopts the <b>regulations</b> needed to apply laws (grand-ducal regulations).</li>
   <li><b>Appoints the Prime Minister and the members of the Government</b>.</li>
-  <li>Can <b>dissolve the Chamber of Deputies</b>. New elections must then be held within <b>3 months</b>. This happened in 2013.</li>
+  <li>Calls <b>early elections</b>, but since 2023 <b>only</b> if the Chamber (by a majority of its members) <b>refuses a vote of confidence</b> or <b>adopts a motion of censure</b>, or if the Government resigns and the Chamber agrees. Elections must take place within <b>3 months</b>. Under the old Constitution the Grand Duke could dissolve the Chamber freely; this happened in 2013.</li>
   <li><b>Represents the State abroad</b>, and concludes and signs <b>treaties</b>, which the Chamber must approve by law.</li>
   <li>Is the formal head of the <b>Army</b>, under the Government's responsibility.</li>
-  <li>Has the <b>right of pardon</b>, appoints to public offices, and awards honours.</li>
+  <li>Has the <b>right of pardon</b> (he can remit or reduce sentences), appoints to public offices, and awards honours.</li>
+</ul>
+
+<h3>State of crisis (Art. 48)</h3>
+<ul>
+  <li>In an international crisis, a real threat to the vital interests of the population, or a serious danger to public security, the Grand Duke (in practice the Government) can declare a <b>state of crisis</b> if the Chamber cannot legislate fast enough.</li>
+  <li>The Government can then adopt <b>regulations that may override existing laws</b>. They must be necessary, adequate and proportionate, and they must respect the Constitution.</li>
+  <li>It lasts at most <b>10 days</b>. Only a <b>law voted by 2/3 of deputies</b> can extend it, by up to <b>3 months</b> at a time. The Chamber <b>cannot be dissolved</b> during a crisis.</li>
+  <li>Examples: the 2008 financial crisis, and <b>COVID-19 in March 2020</b>.</li>
 </ul>
 
 <h3>Succession</h3>
 <ul>
-  <li>The crown is <b>hereditary in the House of Nassau</b> (the Nassau-Weilburg line, then Bourbon-Parma-Nassau).</li>
-  <li>Since a 2010/2011 reform, now in the Constitution, the <b>eldest child inherits, whether a girl or a boy</b> (equal primogeniture).</li>
-  <li>On accession, the Grand Duke takes the <b>constitutional oath before the Chamber of Deputies</b>.</li>
+  <li>The office is <b>hereditary among the direct descendants of Grand Duke Adolphe</b> (House of Nassau), by primogeniture. Only children born in a marriage can succeed.</li>
+  <li>The <b>eldest child inherits, whether a girl or a boy</b> (equal primogeniture). This applies from the descendants of Grand Duke Henri onwards.</li>
+  <li>An heir may <b>renounce</b> the throne, and an <b>abdication</b> must be a written, irrevocable act.</li>
+  <li>The Grand Duke takes office only after swearing, <b>before the Chamber of Deputies</b> and within 10 days, the oath: <i>"I swear to observe the Constitution and the laws and to faithfully fulfil my constitutional duties."</i></li>
+  <li>If the successor is a minor, or the Grand Duke cannot reign, the Chamber appoints a <b>Regent</b>.</li>
+  <li>The <b>Grand Ducal Palace</b> in Luxembourg City and <b>Berg Castle</b> are reserved as the Grand Duke's residences.</li>
   <li>The Grand Duke can delegate his powers to a <b>Lieutenant-Representative</b>. Prince Guillaume held this role in 2024–2025.</li>
 </ul>
 `,
@@ -93,7 +113,10 @@ VE.addModule({
         ['Who is politically responsible for the Grand Duke\'s acts?', 'The minister who countersigns them'],
         ['What does "inviolable" mean here?', 'He cannot be prosecuted; no political responsibility'],
         ['What changed in 2009?', 'The Grand Duke only promulgates laws, no longer sanctions (approves) them'],
-        ['Deadline for elections after dissolution', '3 months'],
+        ['When can early elections be called (2023 Constitution)?', 'Only after a lost confidence vote, a motion of censure, or the Government\'s resignation with the Chamber\'s agreement'],
+        ['Deadline for early elections', '3 months'],
+        ['Maximum length of a state of crisis without a law', '10 days (extension by a 2/3 law, max 3 months at a time)'],
+        ['Deadline to promulgate a law', '3 months after its adoption'],
         ['Rule of succession', 'Eldest child regardless of gender'],
         ['Where does the new Grand Duke swear the oath?', 'Before the Chamber of Deputies']
       ]
@@ -119,7 +142,9 @@ VE.addModule({
   </li>
   <li><b>How you vote:</b> you have as many votes as there are seats in your constituency. You can vote for a whole list (one box), or give individual votes to candidates on different lists (<b>panachage</b>), with up to 2 votes per candidate.</li>
   <li><b>Voters:</b> Luxembourg nationals aged 18+. <b>Voting is compulsory.</b> <b>Candidates:</b> Luxembourgers aged 18+ who live in Luxembourg.</li>
-  <li>Being a deputy is <b>incompatible</b> with being a member of the Government, a judge or a member of the Council of State.</li>
+  <li>Being a deputy is <b>incompatible</b> with being a member of the Government or of the Council of State, and with certain public functions (such as judge). A deputy who becomes a minister <b>loses their seat</b>, and the next candidate on the list takes it.</li>
+  <li>Deputies vote <b>without instructions from their voters</b> and must act only in the <b>general interest</b>.</li>
+  <li>The new Chamber meets on the <b>third Tuesday after the elections</b>, and deputies swear an oath.</li>
   <li>Deputies enjoy <b>parliamentary immunity</b> for opinions and votes expressed in office.</li>
   <li>A <b>political group</b> needs at least <b>5 deputies</b>.</li>
 </ul>
@@ -130,9 +155,18 @@ VE.addModule({
   <li><b>Votes the State budget</b> every year and approves the State accounts.</li>
   <li><b>Controls the Government</b> through parliamentary questions, interpellations, motions, resolutions and committees of inquiry. It can pass a <b>motion of censure</b> or refuse a <b>vote of confidence</b>, which forces the Government to resign.</li>
   <li><b>Approves international treaties</b> by law.</li>
-  <li>Proposes candidates for the Council of State and the Court of Auditors, and <b>appoints the Ombudsman</b> (<i>Médiateur</i>).</li>
+  <li>Proposes candidates for the Council of State, the Court of Auditors and the <b>Ombudsman</b> (<i>Médiateur</i>), who are then appointed by the Grand Duke.</li>
+  <li>Can set up a <b>committee of inquiry</b>, which is compulsory if <b>one third of deputies</b> ask for it.</li>
   <li>Receives <b>petitions</b> from citizens.</li>
 </ol>
+
+<h3>How the Chamber votes</h3>
+<ul>
+  <li>A decision needs a <b>majority of deputies present</b> (quorum) and a majority of votes cast. Abstentions do not count.</li>
+  <li><b>Proxy voting</b> is allowed, but nobody may hold more than one proxy.</li>
+  <li><b>Qualified majority</b> (e.g. constitutional revision, crisis laws, transfers of power to the EU): at least <b>2/3 of the votes of the deputies</b> (40 of 60), with <b>no proxies</b>.</li>
+  <li><b>Parliamentary questions</b> (written, oral or urgent) are the most-used control tool, mostly by the opposition. Ministers must answer.</li>
+</ul>
 
 <h3>The 2023 elections</h3>
 <p>Last legislative elections: <b>8 October 2023</b>. Next scheduled: <b>2028</b>.</p>
@@ -157,7 +191,10 @@ VE.addModule({
         ['Date of last legislative elections', '8 October 2023'],
         ['Largest party in 2023', 'CSV (21 seats)'],
         ['President of the Chamber', 'Claude Wiseler'],
-        ['Who appoints the Ombudsman?', 'The Chamber of Deputies']
+        ['Who appoints the Ombudsman?', 'The Grand Duke, on the proposal of the Chamber (2/3 majority)'],
+        ['Qualified majority in the Chamber', '2/3 of the votes of deputies (40/60), no proxies'],
+        ['When is a committee of inquiry compulsory?', 'When 1/3 of deputies ask for it'],
+        ['Is proxy voting allowed in the Chamber?', 'Yes, max. one proxy per deputy (not for qualified majority votes)']
       ]
     },
     {
@@ -237,6 +274,20 @@ VE.addModule({
   <li>It is <b>advisory</b>: it persuades, it does not decide. However, by refusing to waive the second vote, it imposes a <b>3-month suspensive veto</b>.</li>
   <li>Until <b>1996</b> it was also the supreme administrative court. That role passed to the new administrative courts.</li>
 </ul>
+<h3>Regulations and decrees</h3>
+<ul>
+  <li><b>Grand-ducal regulations</b> (<i>règlements grand-ducaux</i>): adopted by the Grand Duke and Government to <b>carry out laws</b>, usually after an opinion of the Council of State.</li>
+  <li><b>Ministerial regulations</b> and <b>communal regulations</b> come below them.</li>
+  <li>Nothing is binding until it is <b>published</b> (Art. 113).</li>
+</ul>
+
+<h3>Revising the Constitution (Art. 131)</h3>
+<ol>
+  <li>The Chamber adopts the revision in <b>two identical votes</b>, at least <b>3 months apart</b>.</li>
+  <li>Each vote needs at least <b>2/3 of deputies' votes</b>, with <b>no proxies</b>.</li>
+  <li>Within <b>2 months</b> of the first vote, <b>more than 1/4 of deputies</b> or <b>25,000 voters</b> can demand a <b>referendum</b>, which then replaces the second vote.</li>
+</ol>
+
 <div class="callout tip"><b>Think of it this way:</b> Chamber = votes. Council of State = advises and can delay by 3 months. Grand Duke = promulgates. Journal officiel = publishes.</div>
 `,
       facts: [
@@ -247,7 +298,9 @@ VE.addModule({
         ['Second constitutional vote: delay', 'At least 3 months after the first vote'],
         ['Who can waive the second vote?', 'The Council of State, with the Chamber\'s agreement'],
         ['Nature of the Council of State\'s role', 'Advisory (plus a suspensive veto)'],
-        ['Until when was the Council of State also a court?', '1996']
+        ['Until when was the Council of State also a court?', '1996'],
+        ['Constitutional revision majority', '2/3 of deputies, two votes 3 months apart'],
+        ['Who can demand a referendum on a constitutional revision?', '>1/4 of deputies or 25,000 voters']
       ]
     },
     {
@@ -267,7 +320,8 @@ VE.addModule({
   <li><b>Justices of the peace</b> handle small civil and commercial cases (up to €10,000), tenancy and wage matters. In criminal matters they act as <b>police courts</b> for minor offences.</li>
   <li><b>District courts</b> handle all other civil and commercial cases. In criminal matters they judge offences (<i>délits</i>) and crimes. Luxembourg has <b>no popular jury</b>: only professional judges sit.</li>
   <li>The <b>Court of Appeal</b> re-examines judgments. The <b>Court of Cassation</b> only checks that the <b>law was correctly applied</b>. It is not a third trial on the facts.</li>
-  <li>Specialised courts include the labour courts and the social security courts.</li>
+  <li><b>Labour Court</b> (<i>tribunal du travail</i>, part of the justices of the peace): disputes between <b>employers and employees</b>.</li>
+  <li><b>Social security courts</b> (<i>Conseil arbitral</i> and <i>Conseil supérieur de la sécurité sociale</i>): disputes about <b>pensions, health insurance, family allowances</b>, etc.</li>
 </ul>
 
 <h3>Administrative order (disputes with the administration)</h3>
@@ -278,7 +332,7 @@ VE.addModule({
 
 <h3>Constitutional Court</h3>
 <ul>
-  <li><b>9 members</b>, sitting in Luxembourg.</li>
+  <li><b>9 members</b>: the presidents of the Superior Court of Justice and of the Administrative Court, 2 judges of the Court of Cassation and 5 magistrates, plus 7 substitutes. It usually sits as a chamber of 5.</li>
   <li>It rules on whether <b>laws comply with the Constitution</b> (except laws approving treaties).</li>
   <li>Cases come only through <b>preliminary questions</b> from other courts. <b>Citizens cannot apply to it directly.</b></li>
 </ul>
@@ -287,7 +341,8 @@ VE.addModule({
 <ul>
   <li><b>Public Prosecutor's Office</b> (<i>Ministère public</i> / <i>Parquet</i>): prosecutes offences and represents society before the courts.</li>
   <li><b>National Council of Justice</b> (<i>Conseil national de la justice</i>, since 2023): guarantees the independence of the judiciary and proposes the appointment of magistrates.</li>
-  <li>Judges are appointed by the Grand Duke and cannot be removed (<b>irremovability</b>).</li>
+  <li>Judges are appointed by the Grand Duke <b>on the proposal of the National Council of Justice</b> and cannot be removed (<b>irremovability</b>).</li>
+  <li><b>Guarantees for citizens:</b> hearings are <b>public</b>, every judgment must give its <b>reasons</b>, and judgments are carried out <b>"in the name of the Grand Duke"</b>.</li>
 </ul>
 `,
       facts: [
@@ -298,7 +353,9 @@ VE.addModule({
         ['Administrative courts', 'Administrative Tribunal → Administrative Court'],
         ['Members of the Constitutional Court', '9'],
         ['Is there a popular jury in Luxembourg?', 'No, only professional judges'],
-        ['Body guaranteeing judicial independence (2023)', 'National Council of Justice']
+        ['Body guaranteeing judicial independence (2023)', 'National Council of Justice'],
+        ['Court for employer–employee disputes', 'Labour Court (tribunal du travail)'],
+        ['Courts for pension / health insurance disputes', 'Social security courts (Conseil arbitral, Conseil supérieur)']
       ]
     },
     {
@@ -372,6 +429,12 @@ VE.addModule({
 <div class="chips">
   <span>Civil registry (births, marriages, deaths)</span><span>Population register</span><span>Fundamental (primary) schools & childcare</span><span>Water, sewage, waste</span><span>Local roads & lighting</span><span>Urban planning (PAG) & building permits</span><span>Social office</span><span>Sports, culture, associations</span><span>Electoral rolls</span><span>Integration of newcomers</span>
 </div>
+<h3>State supervision</h3>
+<ul>
+  <li>The State <b>supervises</b> the communes. Some decisions, such as communal taxes, need approval, and illegal decisions can be suspended or annulled.</li>
+  <li>The <b>Government in council can dissolve a communal council</b> in the interest of the commune.</li>
+  <li>The <b>civil registry</b> (births, marriages, deaths) is <b>exclusively</b> a communal task.</li>
+</ul>
 <p>Communes can join together in <b>communal syndicates</b> (<i>syndicats intercommunaux</i>) for shared services. Each commune must have a <b>commission for intercultural living together</b>.</p>
 `,
       facts: [
@@ -441,7 +504,8 @@ VE.addModule({
     { l: 'i2', q: 'What does the Constitution mean when it says the person of the Grand Duke is "inviolable"?', o: ['He cannot be prosecuted and bears no political responsibility', 'He can never travel abroad', 'He can veto any law', 'He is elected for life by the Chamber'], e: 'The Grand Duke cannot be prosecuted and is politically irresponsible. Ministers take the responsibility by countersigning.' },
     { l: 'i2', q: 'What is a "countersignature"?', o: ['A minister\'s signature next to the Grand Duke\'s, by which the minister takes responsibility', 'The signature of a law by all 60 deputies', 'The approval of a treaty by the EU', 'The signature of the mayor on a building permit'], e: 'Every act of the Grand Duke must be countersigned by a member of the Government, who becomes responsible for it.' },
     { l: 'i2', q: 'Which change was made to the Constitution in 2009 regarding the Grand Duke and laws?', o: ['He now only promulgates laws and no longer has to sanction (approve) them', 'He lost the right to appoint the Prime Minister', 'He was given a right of veto', 'He must now be elected'], e: 'After Grand Duke Henri\'s objection to the euthanasia law, the 2009 revision removed the sanction. The Grand Duke only promulgates.' },
-    { l: 'i2', q: 'If the Grand Duke dissolves the Chamber of Deputies, new elections must be held within…', o: ['3 months', '1 month', '6 months', '1 year'], e: 'After a dissolution, elections take place within three months. This happened in 2013.' },
+    { l: 'i2', q: 'Under the 2023 Constitution, when can the Grand Duke call early elections?', o: ['Only if the Chamber refuses confidence, adopts a motion of censure, or agrees after the Government resigns', 'Whenever he wishes', 'Every two years', 'Only after a referendum'], e: 'Art. 73: early elections are possible only after a lost confidence vote, a motion of censure, or the Government\'s resignation with the Chamber\'s consent. They must take place within 3 months.' },
+    { l: 'i2', q: 'Once early elections are called, they must take place within…', o: ['3 months', '1 month', '6 months', '1 year'], e: 'New elections must be held at the latest within three months (Art. 73).' },
     { l: 'i2', q: 'How is the throne passed on today?', o: ['To the eldest child, girl or boy', 'Only to the eldest son', 'By election in the Chamber', 'By referendum'], e: 'Since the 2010/2011 reform, the eldest child inherits regardless of gender (equal primogeniture).' },
     { l: 'i2', q: 'Before whom does a new Grand Duke take the constitutional oath?', o: ['The Chamber of Deputies', 'The Pope', 'The Council of State', 'The Constitutional Court'], e: 'On accession, the Grand Duke swears the constitutional oath before the Chamber of Deputies, the representatives of the Nation.' },
     { l: 'i2', q: 'Which of these is NOT a power of the Grand Duke?', o: ['Voting laws in the Chamber', 'Promulgating laws', 'Appointing the members of the Government', 'Granting pardons'], e: 'Laws are voted by the Chamber of Deputies. The Grand Duke promulgates them, appoints ministers and has the right of pardon.' },
@@ -463,8 +527,8 @@ VE.addModule({
     { l: 'i3', q: 'Which party won the most seats in the October 2023 legislative elections?', o: ['CSV', 'DP', 'LSAP', 'déi gréng'], e: 'CSV won 21 seats, ahead of DP (14), LSAP (11), ADR (5), déi gréng (4), Piraten (3) and déi Lénk (2).' },
     { l: 'i3', q: 'When did the last legislative elections take place?', o: ['8 October 2023', '11 June 2023', '14 October 2018', '9 June 2024'], e: 'The legislative elections took place on 8 October 2023. 11 June 2023 was the date of the communal elections.' },
     { l: 'i3', q: 'Who is the President of the Chamber of Deputies (since 2023)?', o: ['Claude Wiseler', 'Luc Frieden', 'Xavier Bettel', 'Fernand Etgen'], e: 'Claude Wiseler (CSV) has presided over the Chamber since November 2023. Fernand Etgen was his predecessor.' },
-    { l: 'i3', q: 'Who appoints the Ombudsman (Médiateur)?', o: ['The Chamber of Deputies', 'The Grand Duke alone', 'The Prime Minister', 'The European Union'], e: 'The Ombudsman is attached to and appointed by the Chamber of Deputies.' },
-    { tf: true, l: 'i3', q: 'A deputy can at the same time be a member of the Government.', a: false, e: 'False. The office of deputy is incompatible with that of member of the Government, judge or member of the Council of State.' },
+    { l: 'i3', q: 'How is the Ombudsman (Médiateur) appointed?', o: ['By the Grand Duke, on the proposal of the Chamber of Deputies (2/3 majority)', 'By the Prime Minister alone', 'By direct election', 'By the European Union'], e: 'Art. 83: the Ombudsman is appointed by the Grand Duke on a proposal of the Chamber voted with a qualified majority.' },
+    { tf: true, l: 'i3', q: 'A deputy can at the same time be a member of the Government.', a: false, e: 'False. A deputy who becomes a minister loses their seat. The office is also incompatible with membership of the Council of State and with certain public functions.' },
     { tf: true, l: 'i3', q: 'Sessions of the Chamber of Deputies are in principle public.', a: true, e: 'True. Plenary sessions are public and broadcast (Chamber TV).' },
     // i4 Government
     { l: 'i4', q: 'Who has been Prime Minister of Luxembourg since November 2023?', o: ['Luc Frieden', 'Xavier Bettel', 'Jean-Claude Juncker', 'Paulette Lenert'], e: 'Luc Frieden (CSV) leads a CSV–DP coalition government formed on 17 November 2023.' },
@@ -527,6 +591,23 @@ VE.addModule({
     { l: 'i9', q: 'Which coalition governed Luxembourg from 2013 to 2023 (the "Gambia" coalition)?', o: ['DP–LSAP–déi gréng', 'CSV–DP', 'CSV–LSAP', 'DP–ADR'], e: 'Named after the colours of the Gambian flag (blue, red, green), it was led by Xavier Bettel.' },
     { l: 'i9', q: 'Since when have members of the European Parliament been directly elected?', o: ['1979', '1957', '1992', '2004'], e: 'The first direct European elections took place in 1979.' },
     { l: 'i9', q: 'Which party has been the largest in most post-war Luxembourg elections?', o: ['CSV (Christian Social People\'s Party)', 'DP', 'LSAP', 'Piraten'], e: 'The CSV has been the strongest party in most elections since 1945 and led most governments.' },
-    { tf: true, l: 'i9', q: 'Luxembourgers living abroad can vote by post in legislative elections.', a: true, e: 'True. Postal voting is available for legislative and European elections.' }
+    { tf: true, l: 'i9', q: 'Luxembourgers living abroad can vote by post in legislative elections.', a: true, e: 'True. Postal voting is available for legislative and European elections.' },
+    // added after checking the official syllabus sources
+    { l: 'i1', q: 'According to Article 4 of the Constitution, what is the language of Luxembourg?', o: ['Luxembourgish', 'French', 'German', 'English'], e: 'Art. 4: "La langue du Grand-Duché de Luxembourg est le luxembourgeois." The law regulates the use of Luxembourgish, French and German.' },
+    { l: 'i1', q: 'Which city is, according to the Constitution, the seat of the constitutional institutions?', o: ['Luxembourg City', 'Esch-sur-Alzette', 'Diekirch', 'Strasbourg'], e: 'Art. 8: Luxembourg City is the capital and the seat of the constitutional institutions.' },
+    { l: 'i2', q: 'What is a "state of crisis" (Art. 48)?', o: ['A situation where the Government can adopt regulations overriding laws, for max. 10 days unless extended by a 2/3 law', 'A period when elections are cancelled forever', 'A war declared by the Grand Duke alone', 'A strike by civil servants'], e: 'In a serious crisis, regulations may override laws. Beyond 10 days, extension requires a law voted by 2/3 of deputies (max. 3 months at a time). It was used for COVID-19 in 2020.' },
+    { l: 'i2', q: 'Which oath does the Grand Duke swear before the Chamber of Deputies?', o: ['To observe the Constitution and the laws and faithfully fulfil his constitutional duties', 'To obey the Prime Minister', 'To defend the Catholic Church', 'To protect the European Union'], e: 'Art. 57: "I swear to observe the Constitution and the laws and to faithfully fulfil my constitutional duties."' },
+    { l: 'i2', q: 'Within how long must the Grand Duke promulgate a law after its adoption?', o: ['3 months', '24 hours', '1 year', 'There is no limit'], e: 'Art. 49: the Grand Duke promulgates laws within three months of their adoption by the Chamber.' },
+    { l: 'i3', q: 'What majority is a "qualified majority" in the Chamber of Deputies?', o: ['At least 2/3 of the votes of deputies, without proxies', 'A simple majority of those present', '31 deputies', 'Unanimity'], e: 'Qualified majority = at least two thirds of the votes of the deputies (40 of 60); proxy votes are not allowed.' },
+    { l: 'i3', q: 'When must the Chamber set up a committee of inquiry?', o: ['When at least one third of deputies request it', 'When the Prime Minister agrees', 'When 4,500 citizens sign a petition', 'Never; it is optional'], e: 'A committee of inquiry must be set up if at least one third of deputies request it.' },
+    { l: 'i3', q: 'What happens when a deputy is appointed minister?', o: ['They lose their seat, and the next candidate on their list replaces them', 'They keep both functions', 'A new election is held in their constituency', 'The Chamber is dissolved'], e: 'Art. 66: a deputy who becomes a member of the Government loses their mandate, and a substitute from the same list takes over.' },
+    { tf: true, l: 'i3', q: 'Proxy voting is allowed in the Chamber of Deputies, with a maximum of one proxy per deputy.', a: true, e: 'True (Art. 71), except for votes requiring a qualified majority.' },
+    { l: 'i5', q: 'How is the Constitution revised?', o: ['Two identical votes of the Chamber at least 3 months apart, each with a 2/3 majority', 'A simple law voted once', 'A decision of the Grand Duke', 'A vote of the Council of State'], e: 'Art. 131. A referendum can replace the second vote if requested by over 1/4 of deputies or 25,000 voters within 2 months.' },
+    { l: 'i5', q: 'Who adopts the grand-ducal regulations that carry out laws?', o: ['The Grand Duke (with the Government)', 'The Chamber of Deputies', 'The communal councils', 'The Constitutional Court'], e: 'The Grand Duke takes the regulations needed to carry out laws (Art. 45), countersigned by a minister.' },
+    { l: 'i6', q: 'Which court handles a dispute between an employee and their employer?', o: ['The Labour Court (tribunal du travail)', 'The Administrative Tribunal', 'The Constitutional Court', 'The Court of Auditors'], e: 'Labour disputes go to the labour courts, which sit with the justices of the peace.' },
+    { l: 'i6', q: 'You disagree with a decision about your pension or health insurance. Which jurisdiction is competent?', o: ['The social security courts (Conseil arbitral de la sécurité sociale)', 'The Council of State', 'The Chamber of Deputies', 'The Court of Cassation directly'], e: 'Social security disputes go first to the Conseil arbitral, with appeal to the Conseil supérieur de la sécurité sociale.' },
+    { l: 'i6', q: 'Who appoints judges on the proposal of the National Council of Justice?', o: ['The Grand Duke', 'The voters', 'The Chamber of Deputies', 'The Prime Minister alone'], e: 'Art. 107: the Grand Duke appoints the magistrates proposed by the National Council of Justice.' },
+    { tf: true, l: 'i6', q: 'Court hearings are in principle public, and every judgment must state its reasons.', a: true, e: 'True (Art. 108–109), guarantees for every litigant.' },
+    { l: 'i8', q: 'Who can dissolve a communal council?', o: ['The Government in council', 'The mayor', 'The Council of State', 'The voters by petition'], e: 'The Government in council can dissolve the communal council in the interest of the commune\'s management.' }
   ]
 });

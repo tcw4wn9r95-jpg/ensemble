@@ -4,7 +4,7 @@ A mobile web app (installable on iPhone) to prepare for the Luxembourg
 **"Vivre ensemble au Grand-Duché de Luxembourg"** citizenship exam.
 
 - **3 modules** that follow the official syllabus: Fundamental Rights (10 exam questions), State & Communal Institutions (20), History & European Integration (10)
-- **20 lessons** of theory, with timelines, diagrams and "key facts" boxes
+- **21 lessons** of theory, checked against the official syllabus and every document it recommends, with timelines, diagrams and "key facts" boxes
 - **Flashcards** for each module
 - **Practice quizzes** with an explanation after every answer: by module, by lesson, mistakes only, unseen questions, true/false
 - **Full mock exam**: 40 questions, 60-minute timer, flagging, question grid, pass mark 28/40, and a detailed review

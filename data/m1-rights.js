@@ -19,9 +19,34 @@ VE.addModule({
       html: `
 <p class="lead">Luxembourg is a <b>democratic, free, independent and indivisible State</b>, founded on the <b>rule of law</b> (<i>État de droit</i>) and respect for human rights. All of this is written in the <b>Constitution</b>, the country's highest law.</p>
 
+<h3>Where do fundamental rights come from?</h3>
+<p>Fundamental rights protect the individual against <b>arbitrary action by the State</b>. The syllabus names their main sources:</p>
+<table class="tbl">
+  <tr><th>Level</th><th>Key text</th></tr>
+  <tr><td>Historic model</td><td><b>Declaration of the Rights of Man and of the Citizen</b>, France, <b>1789</b></td></tr>
+  <tr><td>Universal</td><td><b>Universal Declaration of Human Rights</b>, United Nations, adopted in <b>Paris</b>, <b>1948</b></td></tr>
+  <tr><td>European (Council of Europe)</td><td><b>European Convention on Human Rights</b> (signed 1950, in force 1953). Its court sits in <b>Strasbourg</b></td></tr>
+  <tr><td>European Union</td><td><b>Charter of Fundamental Rights of the EU</b> (<b>2000</b>, binding since the Lisbon Treaty, 2009)</td></tr>
+  <tr><td>National</td><td>The <b>Constitution</b>. The first Luxembourg constitution to guarantee fundamental rights was the liberal <b>Constitution of 1848</b></td></tr>
+</table>
+
+<h3>Three "families" of rights</h3>
+<ol>
+  <li><b>Classic rights and freedoms</b>: these <b>protect the individual against the State</b> (liberty, privacy, expression…). They also guarantee <b>participation in public affairs</b> (voting, petitions) and the <b>rights of litigants and defendants</b> (fair trial, presumption of innocence).</li>
+  <li><b>Second-generation social and economic rights</b>: these guarantee <b>social allowances</b> and <b>services provided by the community</b> (education, social security, health).</li>
+  <li><b>Constitutional objectives</b>: goals for society, such as the <b>environment, natural resources, sustainable development</b> and the climate.</li>
+</ol>
+
+<h3>Limits on rights</h3>
+<p>Not everyone holds every right in the same way. Limits can depend on:</p>
+<ul>
+  <li><b>Personal situation</b>: <b>age</b> (you vote from 18), <b>incapacity</b> (guardianship), or a <b>criminal conviction</b> (a court can remove the right to vote).</li>
+  <li><b>Nationality</b>: the <b>right to vote</b> in national elections is reserved to Luxembourgers. <b>Access to the labour market</b> can be restricted for non-EU nationals. Public posts involving State authority can be reserved to Luxembourgers (Art. 11). <b>EU citizens</b> have extra rights (they can vote in communal and European elections and work freely).</li>
+</ul>
+
 <h3>One Constitution, many revisions</h3>
 <ul>
-  <li>The basic text dates from <b>17 October 1868</b>. Earlier constitutions came in 1841, 1848 and 1856.</li>
+  <li>The basic text dates from <b>17 October 1868</b>. Earlier constitutions came in <b>1841</b>, <b>1848</b> (liberal) and <b>1856</b> (authoritarian).</li>
   <li>After about 20 years of work, a <b>thoroughly revised Constitution entered into force on 1 July 2023</b>. It modernised the text and organised it in clear chapters.</li>
   <li>Luxembourg is a <b>parliamentary democracy in the form of a constitutional monarchy</b>. <b>Sovereignty resides in the Nation</b>, and all powers of the State come from it.</li>
 </ul>
@@ -29,14 +54,14 @@ VE.addModule({
 <div class="callout tip"><b>Remember:</b> 1868 is the basic text. <b>1 July 2023</b> is when the revised Constitution took effect.</div>
 
 <h3>How the rights chapter is organised (2023)</h3>
-<p>Chapter 2, <i>"Des droits et libertés"</i> (rights and freedoms), has several sections:</p>
+<p>Chapter II, <i>"Des droits et libertés"</i> (rights and freedoms), has <b>four sections</b>:</p>
 <ol>
   <li><b>Nationality and political rights</b>: who is Luxembourgish and who may vote.</li>
   <li><b>Fundamental rights</b>: human dignity, the right to life, the ban on torture, equality, and so on.</li>
   <li><b>Public freedoms</b>: expression, the press, assembly, association, religion, education and more.</li>
-  <li><b>Objectives of constitutional value</b>: goals the State must work towards, such as decent housing, the environment and climate, animal welfare, culture, research and the right to work.</li>
-  <li><b>Common provisions</b>: rights may be limited <b>only by a law</b>, and the limit must respect the essence of the right and be <b>proportionate</b>.</li>
-</ol>
+  <li><b>Objectives of constitutional value</b>: goals the State must work towards: the <b>right to work</b>, <b>social dialogue</b>, a dignified life and <b>appropriate housing</b>, the <b>environment and biodiversity</b>, fighting <b>climate change</b>, <b>animal welfare</b> (animals are "non-human living beings with sensitivity"), <b>culture</b> and cultural heritage, and <b>scientific research</b>.</li>
+  </ol>
+<p><b>Limitation clause (Art. 37):</b> a public freedom may be limited <b>only by a law</b>. The limit must respect the freedom's <b>essential content</b>, be <b>necessary in a democratic society</b>, and be <b>proportionate</b>.</p>
 <div class="callout"><b>Rights vs objectives:</b> you can rely on a <i>right</i> or <i>freedom</i> before a judge. An <i>objective of constitutional value</i> is a mission for the State: it guides the legislator, but it does not give you an individual right you can enforce in court.</div>
 
 <h3>The hierarchy of norms</h3>
@@ -50,11 +75,11 @@ VE.addModule({
 </div>
 <p>A lower rule must respect every rule above it. Laws and regulations are published in the <b>Journal officiel</b> (formerly the <i>Mémorial</i>) on <b>legilux.lu</b>. Only after publication can they be enforced.</p>
 
-<h3>Rights protected at three levels</h3>
+<h3>Who protects these rights?</h3>
 <ul>
-  <li><b>National:</b> the Constitution, protected by the courts and the <b>Constitutional Court</b>.</li>
+  <li><b>The national judge:</b> every <b>ordinary judge</b> must refuse to apply a law or regulation that breaks a higher norm (Art. 102). The <b>Constitutional Court</b> checks that laws comply with the Constitution.</li>
   <li><b>Council of Europe:</b> the <b>European Convention on Human Rights</b> (in force in 1953). Its judges sit at the European Court of Human Rights in <b>Strasbourg</b>. Luxembourg was a founding member of the Council of Europe in 1949.</li>
-  <li><b>European Union:</b> the <b>Charter of Fundamental Rights of the EU</b>, applied by the Court of Justice of the EU, which sits in <b>Luxembourg</b>.</li>
+  <li><b>European Union:</b> the <b>Charter of Fundamental Rights of the EU</b>, applied by the <b>Court of Justice of the EU</b>, which sits in <b>Luxembourg</b>. National judges can ask it how EU law should be interpreted (a "preliminary ruling").</li>
 </ul>
 <p>Globally, the <b>Universal Declaration of Human Rights</b> was adopted by the UN in <b>1948</b>. Luxembourg was a founding member of the United Nations in 1945.</p>
 `,
@@ -64,6 +89,12 @@ VE.addModule({
         ['Form of State', 'Parliamentary democracy in the form of a constitutional monarchy'],
         ['Where does sovereignty reside?', 'In the Nation'],
         ['Can a fundamental right be restricted?', 'Only by a law, respecting its essence and the principle of proportionality'],
+        ['French declaration of 1789', 'Declaration of the Rights of Man and of the Citizen'],
+        ['Universal Declaration of Human Rights', 'United Nations, Paris, 1948'],
+        ['EU Charter of Fundamental Rights', '2000'],
+        ['First Luxembourg constitution guaranteeing fundamental rights', '1848'],
+        ['Number of sections in Chapter II (rights & freedoms)', '4: nationality & political rights, fundamental rights, public freedoms, objectives of constitutional value'],
+        ['"Second-generation" rights', 'Social and economic rights (allowances, community services)'],
         ['Where are laws published?', 'In the Journal officiel (ex-Mémorial), available on legilux.lu'],
         ['Seat of the European Court of Human Rights', 'Strasbourg (Council of Europe)'],
         ['Seat of the Court of Justice of the EU', 'Luxembourg (Kirchberg)']
@@ -89,12 +120,16 @@ VE.addModule({
   <li><b>All Luxembourgers are equal before the law.</b> The law sets out when non-Luxembourgers are assimilated to Luxembourgers.</li>
   <li><b>Women and men are equal in rights and duties.</b> The State actively promotes the removal of obstacles to that equality.</li>
   <li><b>No discrimination</b>, for example based on origin, skin colour, sex, sexual orientation, religion or beliefs, disability or age.</li>
-  <li><b>Rights of the child:</b> in every decision that concerns a child, the <b>best interest of the child</b> comes first.</li>
+  <li><b>Rights of the child:</b> in every decision that concerns a child, the <b>best interest of the child</b> comes first. Every child may <b>express their opinion freely</b> on matters affecting them.</li>
+  <li><b>People with disabilities</b> have the right to enjoy all rights equally.</li>
+  <li>Everyone has the <b>right to found a family</b> and to respect for family life.</li>
+  <li><b>The right of asylum</b> is guaranteed, under the conditions set by law.</li>
+  <li>Non-Luxembourgers in the country enjoy the <b>protection given to persons and property</b>, except as the law provides.</li>
 </ul>
 
 <h3>Personal freedom and justice</h3>
 <ul>
-  <li><b>Individual liberty is guaranteed.</b> Nobody can be arrested or detained except in the cases set by law and in the form it requires. An arrested person must be told the reasons and must quickly be brought before a judge.</li>
+  <li><b>Individual liberty is guaranteed.</b> Nobody can be prosecuted, arrested or detained except in the cases set by law and in the form it requires. Except when caught in the act (<i>flagrant délit</i>), an arrest needs a <b>reasoned court decision</b>, notified at the time of arrest or <b>within 24 hours</b>. The person must be told <b>without delay</b> why they were arrested and how to appeal.</li>
   <li><b>No crime and no punishment without a law</b> (<i>nullum crimen, nulla poena sine lege</i>). A penalty can only be imposed under a law that already existed when the act was committed.</li>
   <li><b>Presumption of innocence</b> and the <b>right to a fair trial</b> before an independent and impartial judge, including the right to defence.</li>
   <li><b>No one can be removed from the judge assigned to them by law.</b></li>
@@ -102,9 +137,9 @@ VE.addModule({
 
 <h3>Private life</h3>
 <ul>
-  <li><b>Respect for private and family life</b>, and protection of <b>personal data</b>.</li>
+  <li><b>Respect for private life</b>, and the right to <b>informational self-determination</b> and protection of <b>personal data</b>.</li>
   <li><b>The home is inviolable.</b> A search can only take place in the cases and forms set by law.</li>
-  <li><b>Secrecy of correspondence</b> and communications.</li>
+  <li><b>Inviolability of communications</b> (letters, phone, e-mail), except as provided by law.</li>
   <li><b>Right to property.</b> Nobody can lose their property except for <b>public utility</b>, in the cases set by law, and with <b>fair compensation</b>.</li>
 </ul>
 
@@ -117,6 +152,8 @@ VE.addModule({
         ['Principle of legality of penalties', 'No crime, no punishment without a pre-existing law'],
         ['Expropriation is allowed only…', 'For public utility, as set by law, with fair compensation'],
         ['When can a home be searched?', 'Only in the cases and forms provided by law'],
+        ['Deadline to notify the court decision ordering an arrest', 'At the arrest or within 24 hours (except flagrant délit)'],
+        ['Is the right of asylum in the Constitution?', 'Yes, guaranteed under conditions set by law'],
         ['Guiding principle for decisions concerning children', 'The best interest of the child']
       ]
     },
@@ -129,17 +166,18 @@ VE.addModule({
 
 <div class="grid2">
   <div class="mini"><h4>🗣️ Expression & press</h4><p>Everyone may express their opinions in any field. <b>Censorship can never be established.</b> The press is free. Abuses committed while using these freedoms can be punished afterwards.</p></div>
-  <div class="mini"><h4>👥 Assembly</h4><p>People have the right to <b>assemble peacefully and without weapons</b>, without prior authorisation. Open-air gatherings remain subject to police laws.</p></div>
+  <div class="mini"><h4>👥 Assembly</h4><p>Everyone has the right to <b>assemble peacefully</b>. Prior authorisation can be required <b>only for open-air gatherings in a public place</b>.</p></div>
   <div class="mini"><h4>🤝 Association</h4><p>The right to form associations needs <b>no prior authorisation</b>. Clubs and ASBLs (non-profit associations) play a big role in Luxembourg.</p></div>
   <div class="mini"><h4>🕊️ Religion & belief</h4><p>Freedom of religion and freedom <b>not</b> to have one. <b>No one may be forced</b> to take part in a religion's rites. The State is <b>neutral</b>.</p></div>
-  <div class="mini"><h4>🎓 Education</h4><p>Everyone has the right to education. The State organises <b>public education, free of charge</b>. Schooling is compulsory.</p></div>
+  <div class="mini"><h4>🎓 Education</h4><p>Everyone has the right to education. <b>Public fundamental and secondary education is free.</b> Schooling is compulsory. Everyone may study in Luxembourg or abroad.</p></div>
   <div class="mini"><h4>✊ Unions & strike</h4><p><b>Trade union freedom</b> and the <b>right to strike</b> are guaranteed, within the limits of the law.</p></div>
-  <div class="mini"><h4>📨 Petition</h4><p>Everyone may address <b>petitions</b> to public authorities. A <b>public petition</b> to the Chamber that gathers <b>4,500 signatures</b> leads to a <b>public debate</b>.</p></div>
+  <div class="mini"><h4>📨 Petition</h4><p>Everyone may send signed <b>requests</b> to public authorities, who must <b>answer within a reasonable time</b>. A <b>public petition</b> to the Chamber that gathers <b>4,500 signatures</b> leads to a <b>public debate</b>.</p></div>
   <div class="mini"><h4>💼 Work & social rights</h4><p>Freedom to choose one's work, the right to <b>social security</b> and <b>health protection</b>, and the <b>freedom of trade and industry</b>.</p></div>
 </div>
 
 <h3>State and religions</h3>
 <ul>
+  <li>Since 2023 the Constitution states that <b>churches and religious communities are separate from the State</b> (Art. 120). Their relations are set by law and by <b>conventions</b> approved by the Chamber.</li>
   <li>Since the <b>2015 conventions</b>, the State has kept relations with the recognised faiths through agreements. These faiths include the Catholic Church, Protestant churches, the Jewish community, the Orthodox Church, the Anglican Church and the Muslim community.</li>
   <li>In schools, the course <b>"Vie et société"</b> (Life and Society) replaced separate religion and ethics classes in <b>2016/2017</b>. It is neutral and common to all pupils.</li>
 </ul>
@@ -156,7 +194,9 @@ VE.addModule({
     </ul>
   </li>
 </ul>
-<div class="callout tip"><b>Exam trap:</b> Luxembourgish is the <i>national</i> language. Laws are written in <i>French</i>.</div>
+<div class="callout tip"><b>Exam trap:</b> Luxembourgish is the <i>national</i> language. Laws are written in <i>French</i>. In the Chamber of Deputies, deputies may speak the language of their choice; in practice debates are mostly in Luxembourgish.</div>
+<h3>Political parties</h3>
+<p>The Constitution recognises that <b>political parties</b> help form the will of the people and express <b>democratic pluralism</b>.</p>
 `,
       facts: [
         ['Can censorship be introduced in Luxembourg?', 'No. Censorship can never be established'],
@@ -165,6 +205,8 @@ VE.addModule({
         ['Signatures needed for a public petition debate in the Chamber', '4,500'],
         ['Course that replaced religion/ethics classes in schools', '"Vie et société"'],
         ['Language law date', '24 February 1984'],
+        ['Relationship between churches and the State (2023)', 'Separated; relations set by law and conventions'],
+        ['When can an assembly require authorisation?', 'Only open-air gatherings in a public place'],
         ['National language', 'Luxembourgish'],
         ['Language of legislation', 'French'],
         ['Administrative & judicial languages', 'French, German and Luxembourgish']
@@ -185,6 +227,7 @@ VE.addModule({
   <li>The certificate is obtained by following the <b>24-hour course</b> or by passing the <b>exam</b>.</li>
 </ul>
 
+<ul><li>The law may reserve to Luxembourgers <b>public posts involving the exercise of State authority</b> (Art. 11), and it <b>may grant political rights to non-Luxembourgers</b> (Art. 10).</li></ul>
 <h3>Who votes in which election?</h3>
 <table class="tbl">
   <tr><th>Election</th><th>Who can vote</th><th>Every</th></tr>
@@ -202,7 +245,8 @@ VE.addModule({
 
 <h3>Direct democracy</h3>
 <ul>
-  <li><b>Referendum:</b> the Constitution and the law provide for consultation of voters. Examples include the 2005 referendum on the European Constitutional Treaty (yes, about 56.5%) and the 2015 referendum (three questions, all rejected).</li>
+  <li><b>Referendum:</b> the Chamber can decide to hold one. National referendums so far: <b>1919</b> (monarchy and economic union), <b>1937</b> ("muzzle law", rejected), <b>2005</b> (European Constitution, yes ≈56%) and <b>2015</b> (three questions, all rejected). Voting in a referendum is compulsory.</li>
+  <li><b>Revision of the Constitution</b>: <b>25,000 voters</b> (or more than a quarter of deputies) can demand that a referendum replace the second vote.</li>
   <li><b>Citizens' legislative initiative</b> (new in 2023): a reasoned proposal by <b>125 voters</b>, supported by at least <b>12,500 voters</b>, must be examined by the Chamber.</li>
   <li><b>Petitions</b> to the Chamber of Deputies (see the previous lesson).</li>
 </ul>
@@ -238,7 +282,7 @@ VE.addModule({
 
 <h3>Independent guardians</h3>
 <ul>
-  <li><b>The Ombudsman (<i>Médiateur</i>)</b>: helps people in disputes with <b>State or communal administrations</b>. The office is attached to the Chamber of Deputies, and the service is <b>free</b>.</li>
+  <li><b>The Ombudsman (<i>Médiateur</i>)</b>: helps people in disputes with <b>State or communal administrations</b>. Appointed by the Grand Duke <b>on the proposal of the Chamber of Deputies</b> (2/3 majority). The service is <b>free</b>.</li>
   <li><b>Ombudsman for children and young people</b> (<b>OKAJU</b>): defends the rights of children.</li>
   <li><b>Consultative Commission on Human Rights</b> (<b>CCDH</b>): advises the government on human rights.</li>
   <li><b>Centre for Equal Treatment</b> (<b>CET</b>): fights discrimination.</li>
@@ -262,7 +306,7 @@ VE.addModule({
 <div class="callout tip">The "Vivre ensemble" course exists to help residents understand their rights, the institutions and the country's history, so they can play a full part as citizens.</div>
 `,
       facts: [
-        ['Who helps you with a dispute against an administration?', 'The Ombudsman (Médiateur), attached to the Chamber'],
+        ['Who helps you with a dispute against an administration?', 'The Ombudsman (Médiateur), proposed by the Chamber'],
         ['OKAJU', 'Ombudsman for children and young people'],
         ['CCDH', 'Consultative Commission on Human Rights'],
         ['CET', 'Centre for Equal Treatment (anti-discrimination)'],
@@ -300,7 +344,7 @@ VE.addModule({
     { l: 'r2', q: 'In which year did Luxembourg open marriage to same-sex couples?', o: ['2015', '1999', '2009', '2023'], e: 'Marriage equality (and adoption) came into force in 2015. Euthanasia was legalised in 2009.' },
     // r3 public freedoms
     { l: 'r3', q: 'According to the Constitution, censorship…', o: ['can never be established', 'is allowed in times of crisis', 'is decided by the Council of State', 'applies to foreign newspapers'], e: 'Freedom of expression and of the press is guaranteed, and censorship can never be established. Abuses can be punished afterwards.' },
-    { l: 'r3', q: 'Under what conditions do people have the right to assemble?', o: ['Peacefully and without weapons', 'Only with the written permission of the Grand Duke', 'Only in groups of fewer than 10', 'Only on national holidays'], e: 'Everyone has the right to assemble peacefully and unarmed, without prior authorisation. Open-air gatherings remain subject to police laws.' },
+    { l: 'r3', q: 'Under what conditions do people have the right to assemble?', o: ['Peacefully; authorisation can only be required for open-air gatherings in public places', 'Only with the written permission of the Grand Duke', 'Only in groups of fewer than 10', 'Only on national holidays'], e: 'Everyone has the right of peaceful assembly. Prior authorisation may only be required for open-air gatherings in a place accessible to the public.' },
     { l: 'r3', q: 'Do you need permission from the State to create an association?', o: ['No, the right of association needs no prior authorisation', 'Yes, from the Prime Minister', 'Yes, from the Council of State', 'Only if more than 3 members are foreigners'], e: 'The right of association is guaranteed and cannot be made subject to prior authorisation.' },
     { l: 'r3', q: 'Which statement about religion in Luxembourg is correct?', o: ['No one can be forced to take part in religious rites', 'Catholicism is the compulsory state religion', 'Religion classes are compulsory for all pupils', 'Only Christian faiths are allowed'], e: 'Freedom of religion includes freedom not to believe. No one can be forced to take part in a worship. The State is neutral.' },
     { l: 'r3', q: 'Which school subject replaced religious and moral education in public schools?', o: ['"Vie et société" (Life and Society)', '"Éducation civique"', '"Histoire des religions"', '"Philosophie"'], e: 'Since 2016/2017, the common course "Vie et société" has been taught to all pupils.' },
@@ -312,7 +356,7 @@ VE.addModule({
     { l: 'r3', q: 'In what year was the Language Law adopted?', o: ['1984', '1839', '1919', '2023'], e: 'The Law of 24 February 1984 on the use of languages made Luxembourgish the national language.' },
     { l: 'r3', q: 'You write to a ministry in German. In principle, the administration should reply…', o: ['as far as possible in German', 'only in French', 'only in Luxembourgish', 'in English'], e: 'The 1984 law says the administration should answer, as far as possible, in the language (FR/DE/LU) used by the citizen.' },
     { tf: true, l: 'r3', q: 'The right to strike and trade union freedom are guaranteed in Luxembourg.', a: true, e: 'True. Trade union freedom and the right to strike are guaranteed, within the limits of the law.' },
-    { tf: true, l: 'r3', q: 'Public education in Luxembourg is free of charge.', a: true, e: 'True. The State organises free public education, and schooling is compulsory.' },
+    { tf: true, l: 'r3', q: 'Public fundamental and secondary education in Luxembourg is free of charge.', a: true, e: 'True. The Constitution states that public fundamental and secondary education is free, and schooling is compulsory.' },
     // r4 nationality & political rights
     { l: 'r4', q: 'Since when has Luxembourg accepted multiple (dual) nationality?', o: ['1 January 2009', '1 January 1984', '1 July 2023', '1 January 1999'], e: 'Multiple nationality has been allowed since 1 January 2009. The current nationality law dates from 8 March 2017.' },
     { l: 'r4', q: 'How many years of legal residence are required to apply for naturalisation?', o: ['5 years', '2 years', '10 years', '20 years'], e: '5 years of legal residence, the last year without interruption, plus the language test and the "Vivre ensemble" certificate.' },
@@ -327,12 +371,27 @@ VE.addModule({
     { tf: true, l: 'r4', q: 'Military service is compulsory for young Luxembourgers.', a: false, e: 'False. Compulsory military service was abolished in 1967. The Luxembourg Army is made up of volunteers.' },
     { tf: true, l: 'r4', q: 'Since 2023, foreign residents no longer need a minimum period of residence to register for communal elections.', a: true, e: 'True. The 2023 reform abolished the residence condition for registering on the communal electoral rolls.' },
     // r5 protection & living together
-    { l: 'r5', q: 'You have a dispute with a State administration. Which free, independent body can help you?', o: ['The Ombudsman (Médiateur)', 'The Council of State', 'The Court of Auditors', 'The Chamber of Commerce'], e: 'The Ombudsman (Médiateur), attached to the Chamber of Deputies, helps citizens free of charge in disputes with administrations.' },
+    { l: 'r5', q: 'You have a dispute with a State administration. Which free, independent body can help you?', o: ['The Ombudsman (Médiateur)', 'The Council of State', 'The Court of Auditors', 'The Chamber of Commerce'], e: 'The Ombudsman (Médiateur), appointed on the proposal of the Chamber of Deputies, helps citizens free of charge in disputes with administrations.' },
     { l: 'r5', q: 'Which body specifically defends the rights of children in Luxembourg?', o: ['OKAJU (Ombudsman for children and young people)', 'CNPD', 'The Chamber of Trades', 'STATEC'], e: 'The OKAJU (Ombudsman fir Kanner a Jugendlecher) defends children\'s rights.' },
     { l: 'r5', q: 'Which body fights discrimination in Luxembourg?', o: ['The Centre for Equal Treatment (CET)', 'The Court of Auditors', 'The Economic and Social Council', 'The Council of State'], e: 'The Centre for Equal Treatment (Centre pour l\'égalité de traitement) promotes equal treatment and helps victims of discrimination.' },
     { l: 'r5', q: 'Which authority supervises the protection of personal data (GDPR)?', o: ['CNPD', 'CCDH', 'OKAJU', 'ILR'], e: 'The National Commission for Data Protection (CNPD) supervises compliance with data protection rules.' },
     { l: 'r5', q: 'After exhausting national remedies, where can a person complain about a violation of the ECHR?', o: ['European Court of Human Rights (Strasbourg)', 'Constitutional Court of Luxembourg', 'European Commission (Brussels)', 'United Nations (New York)'], e: 'Individual applications under the European Convention on Human Rights go to the Strasbourg court once domestic remedies are exhausted.' },
     { l: 'r5', q: 'Approximately what share of Luxembourg\'s residents are foreign nationals?', o: ['Close to half (≈47%)', 'About 10%', 'About 25%', 'About 75%'], e: 'Close to half the population holds a foreign nationality. The Portuguese are the largest foreign community.' },
-    { l: 'r5', q: 'What did the Law of 23 August 2023 on intercultural living together create?', o: ['The Citizens\' Pact (Pacte citoyen)', 'The Constitutional Court', 'Compulsory voting for foreigners', 'The 1984 language rules'], e: 'The 2023 law created the Citizens\' Pact for intercultural living together, open to everyone who lives or works in Luxembourg, replacing the CAI.' }
+    { l: 'r5', q: 'What did the Law of 23 August 2023 on intercultural living together create?', o: ['The Citizens\' Pact (Pacte citoyen)', 'The Constitutional Court', 'Compulsory voting for foreigners', 'The 1984 language rules'], e: 'The 2023 law created the Citizens\' Pact for intercultural living together, open to everyone who lives or works in Luxembourg, replacing the CAI.' },
+    // added after checking the official syllabus sources
+    { l: 'r1', q: 'Which French text of 1789 is a historic source of fundamental rights?', o: ['The Declaration of the Rights of Man and of the Citizen', 'The Napoleonic Code', 'The Treaty of Paris', 'The Edict of Nantes'], e: 'The 1789 Declaration of the Rights of Man and of the Citizen is the historic model of modern rights declarations.' },
+    { l: 'r1', q: 'Where and when was the Universal Declaration of Human Rights adopted?', o: ['In Paris, by the United Nations, in 1948', 'In Strasbourg, by the Council of Europe, in 1950', 'In Luxembourg, by the EU, in 2000', 'In London, in 1839'], e: 'The UN General Assembly adopted the Universal Declaration in Paris on 10 December 1948.' },
+    { l: 'r1', q: 'When was the Charter of Fundamental Rights of the European Union proclaimed?', o: ['2000', '1948', '1957', '1789'], e: 'The EU Charter was proclaimed in 2000 and became binding with the Lisbon Treaty (2009).' },
+    { l: 'r1', q: 'Which was the first Luxembourg constitution to guarantee fundamental rights (liberal, on the Belgian model)?', o: ['The Constitution of 1848', 'The Constitution of 1841', 'The Constitution of 1856', 'The Constitution of 2023'], e: 'The 1848 constitution, adopted after the revolutions of 1848, was liberal and guaranteed fundamental rights. The 1841 charter was very limited, and 1856 was a step back.' },
+    { l: 'r1', q: 'What are "second-generation" rights?', o: ['Social and economic rights, such as social allowances and community services', 'Rights only for the children of citizens', 'Rights that apply only after 18', 'Rights granted by the EU only'], e: 'First-generation rights protect freedom against the State. Second-generation rights guarantee social and economic benefits.' },
+    { l: 'r1', q: 'Which of these is a limit on fundamental rights linked to nationality?', o: ['Only Luxembourgers can vote in legislative elections', 'Only adults can marry', 'Prisoners cannot write letters', 'Foreigners cannot go to court'], e: 'Nationality limits the right to vote (national elections) and can limit access to the labour market or to certain public posts.' },
+    { l: 'r1', q: 'What must an ordinary judge do with a regulation that violates the Constitution or a treaty?', o: ['Refuse to apply it in the case', 'Apply it anyway', 'Send it to the Grand Duke', 'Cancel it for the whole country'], e: 'Under Art. 102, courts only apply laws and regulations in so far as they comply with higher norms.' },
+    { tf: true, l: 'r1', q: 'The rights chapter of the 2023 Constitution has four sections, including one on "objectives of constitutional value".', a: true, e: 'True. Nationality & political rights, fundamental rights, public freedoms and objectives of constitutional value.' },
+    { l: 'r2', q: 'Except when someone is caught in the act, an arrest requires…', o: ['a reasoned court decision, notified at arrest or within 24 hours', 'only an order from the mayor', 'the agreement of the Chamber of Deputies', 'nothing special'], e: 'Art. 17: an arrest needs a reasoned court decision, notified at the time of arrest or at the latest within 24 hours.' },
+    { tf: true, l: 'r2', q: 'The right of asylum is guaranteed by the Luxembourg Constitution.', a: true, e: 'True. The right of asylum is guaranteed under the conditions determined by law.' },
+    { l: 'r3', q: 'Since the 2023 Constitution, what is the relationship between the State and the churches?', o: ['Churches and religious communities are separated from the State', 'Catholicism is the State religion', 'The Grand Duke appoints the bishops', 'Religions are forbidden in public'], e: 'Art. 120: churches and religious communities are separate from the State. Relations are set by law and by conventions approved by the Chamber.' },
+    { l: 'r3', q: 'You send a written request to a public authority. What does the Constitution require?', o: ['The authority must answer within a reasonable time', 'Nothing; it can ignore you', 'It must answer within 24 hours', 'Only the Grand Duke can answer'], e: 'Public authorities must answer written requests within a reasonable time.' },
+    { l: 'r4', q: 'How many voters can request a referendum on a revision of the Constitution?', o: ['25,000', '4,500', '12,500', '125'], e: 'Within two months of the first vote, 25,000 voters (or more than a quarter of deputies) can ask that a referendum replace the second vote.' },
+    { l: 'r4', q: 'Which of these was the subject of a national referendum in 1937?', o: ['The "muzzle law" banning the Communist Party (rejected)', 'Joining the EEC', 'Women\'s right to vote', 'The euro'], e: 'In 1937, 50.7% voted against the "Maulkuerfgesetz" (muzzle law), which would have dissolved the Communist Party.' }
   ]
 });

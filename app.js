@@ -667,7 +667,7 @@
       <div class="section-h"><h2>Sources</h2></div>
       <div class="card src">${VE.info.sources.map(([t, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)} ↗</a>`).join('')}</div>
       <div class="card small muted">
-        <b style="color:var(--label)">About this app.</b> This is an independent, unofficial study aid. The content follows the three official modules and is based on the public sources above. Current facts (Head of State, Government, election results, number of communes) are as of late 2026. The exam's question bank is not public: questions here are original practice questions on the same syllabus. The official pass mark and duration should be confirmed on the portal.
+        <b style="color:var(--label)">About this app.</b> This is an independent, unofficial study aid. The lessons follow the official syllabus ("examination content and documentation") topic by topic, and were checked against every document it recommends: the 2023 Constitution, the government's "About…" brochures on history, institutions and the EU, the fact sheets, and the ZpB civic-education material. Current facts (Head of State, Government, election results, number of communes) are as of late 2026. The exam's question bank is not public: questions here are original practice questions on the same syllabus. The official pass mark and duration should be confirmed on the portal.
       </div>
       <p class="disclaimer">Made for learners · Works offline once loaded · Add to Home Screen from Safari's share menu</p>`;
   }

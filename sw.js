@@ -1,5 +1,5 @@
 /* Offline cache: cache-first for the app shell, refreshed in the background. */
-const CACHE = 've-prep-v1';
+const CACHE = 've-prep-v2';
 const ASSETS = ['./', 'index.html', 'styles.css', 'app.js', 'data/core.js', 'data/m1-rights.js',
   'data/m2-institutions.js', 'data/m3-history.js', 'manifest.webmanifest', 'icons/apple-touch-icon.png', 'icons/icon-192.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting())); });
